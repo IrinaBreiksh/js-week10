@@ -1,6 +1,6 @@
 //Задание 1
 // Напишите функцию firstFunction, которая при нажатии кнопки выводит в консоль переменную first.
-let first = 88;
+const first = 88;
 
 function firstFunction(first) {
 	return first;
@@ -159,7 +159,7 @@ function calculateYearsSinceLastOlympics() {
 } 
 
 console.log(
-	'С момента летней олимпиады в Токио прошло ' + calculateYearsSinceLastOlympics() + ' года',
+	`С момента летней олимпиады в Токио прошло ${calculateYearsSinceLastOlympics()} года`,
 );
 
 //Задание 16
