@@ -172,7 +172,7 @@ function calculateAge() {
 	return currentYear - friendYearOfBirth;
 }
 console.log(
-	'Моему другу в этом году ' + calculateAge() + ' лет',
+	`Моему другу в этом году ${calculateAge()} лет`,
 );
 
 //Задание 17
@@ -184,7 +184,7 @@ function calculateMyAge() {
 	return currentYear - myYearOfBirth;
 }
 console.log(
-	'Мне в этом году исполнилось ' + calculateMyAge() + ' лет',
+	`Мне в этом году исполнилось ${calculateMyAge()} лет`,
 );
 
 
